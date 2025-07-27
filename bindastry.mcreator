@@ -98,6 +98,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium"
+    },
+    {
+      "name": "LaserFocus",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_focus"
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate"
     }
   ],
   "variable_elements": [],
@@ -107,8 +123,10 @@
       "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.uranium": "Uranium",
+      "item.bindastry.laser_focus": "Laser Focus",
       "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.blackmicrocircuits": "chip",
+      "item.bindastry.iron_plate": "Iron Plate",
       "effect.bindastry.radiation": "potion of radiation"
     }
   },
