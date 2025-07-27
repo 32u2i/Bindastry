@@ -1,11 +1,16 @@
 {
   "itemGroup.tabbindustry": "Bindustry",
   "item.bindastry.uranium_battery": "Uranium Battery",
+  "item.bindastry.semiconductor_converter": "Semiconductor Converter",
   "item.bindastry.dirtbeer": "Mud beer ",
-  "item.bindastry.uranium": "Uranium",
+  "item.bindastry.lead_plate": "Lead Plate",
   "item.bindastry.laser_focus": "Laser Focus",
-  "item.bindastry.iron_hammer": "Iron Hammer",
   "item.bindastry.blackmicrocircuits": "chip",
-  "item.bindastry.iron_plate": "Iron Plate",
-  "effect.bindastry.radiation": "potion of radiation"
+  "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
+  "effect.bindastry.radiation": "potion of radiation",
+  "item.bindastry.uranium": "Uranium",
+  "item.bindastry.lead": "Lead",
+  "item.bindastry.iron_hammer": "Iron Hammer",
+  "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
+  "item.bindastry.iron_plate": "Iron Plate"
 }

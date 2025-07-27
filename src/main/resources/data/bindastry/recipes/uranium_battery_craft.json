@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bindastry:lead_plate"
+    },
+    "1": {
+      "item": "bindastry:lead_plate"
+    },
+    "2": {
+      "item": "bindastry:lead_plate"
+    },
+    "3": {
+      "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "bindastry:uranium"
+    },
+    "5": {
+      "item": "minecraft:copper_ingot"
+    },
+    "6": {
+      "item": "bindastry:lead_plate"
+    },
+    "7": {
+      "item": "bindastry:semiconductor_converter"
+    },
+    "8": {
+      "item": "bindastry:lead_plate"
+    }
+  },
+  "result": {
+    "item": "bindastry:uranium_battery",
+    "count": 1
+  }
+}
