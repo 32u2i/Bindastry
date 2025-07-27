@@ -60,7 +60,7 @@
       "name": "Radiation",
       "type": "potioneffect",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "radiation"
     },
@@ -183,6 +183,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "semiconductor_converter_craft"
+    },
+    {
+      "name": "LaserCutter",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_cutter"
     }
   ],
   "variable_elements": [],
@@ -200,6 +208,7 @@
       "effect.bindastry.radiation": "potion of radiation",
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.lead": "Lead",
+      "item.bindastry.laser_cutter": "Laser Cutter",
       "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
       "item.bindastry.iron_plate": "Iron Plate"

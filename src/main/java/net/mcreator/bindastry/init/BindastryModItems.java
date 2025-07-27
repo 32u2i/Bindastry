@@ -18,6 +18,7 @@ import net.mcreator.bindastry.item.SemiconductorConverterItem;
 import net.mcreator.bindastry.item.LeadPlateItem;
 import net.mcreator.bindastry.item.LeadItem;
 import net.mcreator.bindastry.item.LaserFocusItem;
+import net.mcreator.bindastry.item.LaserCutterItem;
 import net.mcreator.bindastry.item.IronPlateItem;
 import net.mcreator.bindastry.item.IronHammerItem;
 import net.mcreator.bindastry.item.DirtbeerItem;
@@ -39,4 +40,5 @@ public class BindastryModItems {
 			() -> new SemiconductorConverterItem());
 	public static final RegistryObject<Item> LEAD = REGISTRY.register("lead", () -> new LeadItem());
 	public static final RegistryObject<Item> LEAD_PLATE = REGISTRY.register("lead_plate", () -> new LeadPlateItem());
+	public static final RegistryObject<Item> LASER_CUTTER = REGISTRY.register("laser_cutter", () -> new LaserCutterItem());
 }
