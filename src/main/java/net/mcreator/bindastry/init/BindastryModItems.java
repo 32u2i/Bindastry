@@ -45,6 +45,7 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> LEAD_PLATE = REGISTRY.register("lead_plate", () -> new LeadPlateItem());
 	public static final RegistryObject<Item> LASER_CUTTER = REGISTRY.register("laser_cutter", () -> new LaserCutterItem());
 	public static final RegistryObject<Item> PHOTOLITHOGRAPH = block(BindastryModBlocks.PHOTOLITHOGRAPH, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> DECORATIVELOG = block(BindastryModBlocks.DECORATIVELOG, BindastryModTabs.TAB_BINDUSTRY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
