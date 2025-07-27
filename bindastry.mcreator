@@ -46,8 +46,9 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.iron_hammer": "Iron Hammer",
-      "item.bindastry.blackmicrocircuits": "Black microcircuits"
+      "item.bindastry.blackmicrocircuits": "chip"
     }
   },
   "foldersRoot": {
