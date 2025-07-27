@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.bindastry.item.UraniumItem;
+import net.mcreator.bindastry.item.UraniumBatteryItem;
 import net.mcreator.bindastry.item.LaserFocusItem;
 import net.mcreator.bindastry.item.IronPlateItem;
 import net.mcreator.bindastry.item.IronHammerItem;
@@ -26,4 +27,5 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> LASER_FOCUS = REGISTRY.register("laser_focus", () -> new LaserFocusItem());
 	public static final RegistryObject<Item> IRON_PLATE = REGISTRY.register("iron_plate", () -> new IronPlateItem());
+	public static final RegistryObject<Item> URANIUM_BATTERY = REGISTRY.register("uranium_battery", () -> new UraniumBatteryItem());
 }
