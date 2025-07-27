@@ -7,13 +7,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blackmicrocircuits"
+    },
+    {
+      "name": "Dirtbeer",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtbeer"
+    },
+    {
+      "name": "Dirtbeercraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtbeercraft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bindastry.blackmicrocircuits": "Black microcircuits"
+      "item.bindastry.dirtbeer": "Mud beer ",
+      "item.bindastry.blackmicrocircuits": "chip"
     }
   },
   "foldersRoot": {
