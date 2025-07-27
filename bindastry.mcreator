@@ -23,6 +23,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirtbeercraft"
+    },
+    {
+      "name": "Bindustry",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bindustry"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer"
     }
   ],
   "variable_elements": [],
