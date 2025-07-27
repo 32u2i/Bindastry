@@ -12,6 +12,11 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.UraniumBatteryItem;
+import net.mcreator.bindastry.item.SemiconductorPTypeItem;
+import net.mcreator.bindastry.item.SemiconductorNTypeItem;
+import net.mcreator.bindastry.item.SemiconductorConverterItem;
+import net.mcreator.bindastry.item.LeadPlateItem;
+import net.mcreator.bindastry.item.LeadItem;
 import net.mcreator.bindastry.item.LaserFocusItem;
 import net.mcreator.bindastry.item.IronPlateItem;
 import net.mcreator.bindastry.item.IronHammerItem;
@@ -28,4 +33,10 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> LASER_FOCUS = REGISTRY.register("laser_focus", () -> new LaserFocusItem());
 	public static final RegistryObject<Item> IRON_PLATE = REGISTRY.register("iron_plate", () -> new IronPlateItem());
 	public static final RegistryObject<Item> URANIUM_BATTERY = REGISTRY.register("uranium_battery", () -> new UraniumBatteryItem());
+	public static final RegistryObject<Item> SEMICONDUCTOR_N_TYPE = REGISTRY.register("semiconductor_n_type", () -> new SemiconductorNTypeItem());
+	public static final RegistryObject<Item> SEMICONDUCTOR_P_TYPE = REGISTRY.register("semiconductor_p_type", () -> new SemiconductorPTypeItem());
+	public static final RegistryObject<Item> SEMICONDUCTOR_CONVERTER = REGISTRY.register("semiconductor_converter",
+			() -> new SemiconductorConverterItem());
+	public static final RegistryObject<Item> LEAD = REGISTRY.register("lead", () -> new LeadItem());
+	public static final RegistryObject<Item> LEAD_PLATE = REGISTRY.register("lead_plate", () -> new LeadPlateItem());
 }

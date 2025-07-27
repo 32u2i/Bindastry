@@ -127,6 +127,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_battery"
+    },
+    {
+      "name": "SemiconductorConverter",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semiconductor_converter"
+    },
+    {
+      "name": "SemiconductorNType",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semiconductor_n_type"
+    },
+    {
+      "name": "SemiconductorPType",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semiconductor_p_type"
+    },
+    {
+      "name": "Lead",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead"
+    },
+    {
+      "name": "LeadPlate",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_plate"
+    },
+    {
+      "name": "UraniumBatteryCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_battery_craft"
     }
   ],
   "variable_elements": [],
@@ -135,13 +183,18 @@
     "en_us": {
       "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.uranium_battery": "Uranium Battery",
+      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
       "item.bindastry.dirtbeer": "Mud beer ",
-      "item.bindastry.uranium": "Uranium",
+      "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",
-      "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.blackmicrocircuits": "chip",
-      "item.bindastry.iron_plate": "Iron Plate",
-      "effect.bindastry.radiation": "radiation"
+      "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
+      "effect.bindastry.radiation": "potion of radiation",
+      "item.bindastry.uranium": "Uranium",
+      "item.bindastry.lead": "Lead",
+      "item.bindastry.iron_hammer": "Iron Hammer",
+      "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
+      "item.bindastry.iron_plate": "Iron Plate"
     }
   },
   "foldersRoot": {
