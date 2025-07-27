@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "uranium",
+    "texture": "lasercutter",
     "customModelName": "Normal",
-    "name": "Uranium",
+    "name": "Laser Cutter",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -14,14 +14,14 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 200,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
