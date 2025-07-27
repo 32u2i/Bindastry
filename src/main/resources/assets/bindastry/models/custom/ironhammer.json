@@ -623,6 +623,20 @@
       }
     }
   ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -0.5,
+        2,
+        1.75
+      ]
+    }
+  },
   "groups": [
     {
       "name": "group",

@@ -28,7 +28,11 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.iron_hammer": "Iron Hammer",
+      "item.bindastry.blackmicrocircuits": "Black microcircuits"
+    }
   },
   "foldersRoot": {
     "name": "~",
