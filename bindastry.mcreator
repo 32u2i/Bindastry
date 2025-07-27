@@ -57,17 +57,6 @@
       }
     },
     {
-      "name": "RadiationKoghdaEffiektZakanchivaietsia",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "radiation_koghda_effiekt_zakanchivaietsia",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "Radiation",
       "type": "potioneffect",
       "sortid": 4,
@@ -89,6 +78,17 @@
             "type": "entity"
           }
         ]
+      }
+    },
+    {
+      "name": "RadiationKoghdaEffiektZakanchivaietsia",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_koghda_effiekt_zakanchivaietsia",
+      "metadata": {
+        "dependencies": []
       }
     }
   ],
