@@ -175,6 +175,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_battery_craft"
+    },
+    {
+      "name": "SemiconductorConverterCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semiconductor_converter_craft"
     }
   ],
   "variable_elements": [],
