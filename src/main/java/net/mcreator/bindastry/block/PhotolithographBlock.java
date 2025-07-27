@@ -42,7 +42,7 @@ public class PhotolithographBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
-		return box(0, 0, 0, 32, 32, 16);
+		return box(0, 0, 0, 32, 32, 32);
 	}
 
 	@Override
