@@ -27,7 +27,6 @@ public class BindastryModBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			PhotolithographBlock.registerRenderLayer();
 			DecorativelogBlock.registerRenderLayer();
 		}
 	}

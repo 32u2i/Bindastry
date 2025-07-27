@@ -1,5 +1,5 @@
 {
-  "parent": "bindastry:custom/fotototo,_chioto",
+  "parent": "bindastry:custom/photolithograph",
   "textures": {
     "all": "bindastry:blocks/gf",
     "particle": "bindastry:blocks/55",

@@ -1,7 +1,7 @@
 {
-  "item.bindastry.semiconductor_converter": "Semiconductor Converter",
-  "item.bindastry.uranium_battery": "Uranium Battery",
   "itemGroup.tabbindustry": "Bindustry",
+  "item.bindastry.uranium_battery": "Uranium Battery",
+  "item.bindastry.semiconductor_converter": "Semiconductor Converter",
   "item.bindastry.dirtbeer": "Mud beer ",
   "item.bindastry.lead_plate": "Lead Plate",
   "item.bindastry.laser_focus": "Laser Focus",
