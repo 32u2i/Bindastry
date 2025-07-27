@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.bindastry.init.BindastryModTabs;
+import net.mcreator.bindastry.init.BindastryModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -40,8 +43,10 @@ public class BindastryMod {
 	private static int messageID = 0;
 
 	public BindastryMod() {
-
+		BindastryModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BindastryModItems.REGISTRY.register(bus);
 
 	}
 

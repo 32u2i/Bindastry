@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "ironhammah",
+    "customModelName": "ironhammer:default",
+    "name": "Iron Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Bindustry"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Bindustry",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bindustry"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.iron_hammer": "Iron Hammer"
+    }
   },
   "foldersRoot": {
     "name": "~",
