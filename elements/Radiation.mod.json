@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "potion of radiation",
+    "icon": "1624792755_obsidian-pack-5.png",
+    "color": {
+      "value": -4194360,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "RadiationKazhdyiTikVoVriemiaEffiekta"
+    },
+    "onExpired": {
+      "name": "RadiationKoghdaEffiektZakanchivaietsia"
+    }
+  }
+}
