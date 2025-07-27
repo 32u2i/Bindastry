@@ -39,6 +39,57 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirtbeercraft"
+    },
+    {
+      "name": "RadiationKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation"
+    },
+    {
+      "name": "UraniumIghrokZakanchivaietIspolzovaniiePriedmieta",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ighrok_zakanchivaiet_ispolzovaniie_priedmieta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiationKoghdaEffiektZakanchivaietsia",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_koghda_effiekt_zakanchivaietsia",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
