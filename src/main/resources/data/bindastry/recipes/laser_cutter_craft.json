@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "bindastry:laser_focus"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "bindastry:iron_plate"
+    },
+    "4": {
+      "item": "bindastry:uranium_battery"
+    },
+    "5": {
+      "item": "bindastry:iron_plate"
+    },
+    "7": {
+      "item": "bindastry:iron_plate"
+    }
+  },
+  "result": {
+    "item": "bindastry:laser_cutter",
+    "count": 1
+  }
+}

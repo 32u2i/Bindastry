@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:LaserFocus"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:UraniumBattery"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LaserCutter"
+    },
+    "name": "laser_cutter_craft",
+    "namespace": "mod"
+  }
+}

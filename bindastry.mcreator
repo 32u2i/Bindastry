@@ -60,7 +60,7 @@
       "name": "Radiation",
       "type": "potioneffect",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "radiation"
     },
@@ -191,6 +191,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "laser_cutter"
+    },
+    {
+      "name": "LaserCutterCraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_cutter_craft"
+    },
+    {
+      "name": "Photolithograph",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "photolithograph"
     }
   ],
   "variable_elements": [],
@@ -203,6 +219,7 @@
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",
+      "block.bindastry.photolithograph": "Photolithograph",
       "item.bindastry.blackmicrocircuits": "chip",
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",

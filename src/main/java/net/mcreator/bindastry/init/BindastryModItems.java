@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.UraniumBatteryItem;
@@ -41,4 +44,9 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> LEAD = REGISTRY.register("lead", () -> new LeadItem());
 	public static final RegistryObject<Item> LEAD_PLATE = REGISTRY.register("lead_plate", () -> new LeadPlateItem());
 	public static final RegistryObject<Item> LASER_CUTTER = REGISTRY.register("laser_cutter", () -> new LaserCutterItem());
+	public static final RegistryObject<Item> PHOTOLITHOGRAPH = block(BindastryModBlocks.PHOTOLITHOGRAPH, BindastryModTabs.TAB_BINDUSTRY);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }
