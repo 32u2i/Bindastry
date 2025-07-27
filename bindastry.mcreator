@@ -81,20 +81,25 @@
       }
     },
     {
-      "name": "RadiationKoghdaEffiektZakanchivaietsia",
+      "name": "UraniumKoghdaPriedmietVInvientarie",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radiation_koghda_effiekt_zakanchivaietsia",
+      "registry_name": "uranium_koghda_priedmiet_v_invientarie",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
       "name": "Uranium",
       "type": "item",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium"
@@ -109,7 +114,7 @@
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.blackmicrocircuits": "chip",
-      "effect.bindastry.radiation": "potion of radiation"
+      "effect.bindastry.radiation": "radiation"
     }
   },
   "foldersRoot": {
