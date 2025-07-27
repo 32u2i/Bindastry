@@ -9,14 +9,6 @@
       "registry_name": "bindustry"
     },
     {
-      "name": "IronHammer",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_hammer"
-    },
-    {
       "name": "Blackmicrocircuits",
       "type": "item",
       "sortid": 1,
@@ -215,6 +207,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "decorativelog"
+    },
+    {
+      "name": "IronHammer",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer"
     }
   ],
   "variable_elements": [],
@@ -235,8 +235,8 @@
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.lead": "Lead",
       "item.bindastry.laser_cutter": "Laser Cutter",
-      "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
+      "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.iron_plate": "Iron Plate"
     }
   },
