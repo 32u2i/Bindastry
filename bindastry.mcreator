@@ -60,7 +60,7 @@
       "name": "Radiation",
       "type": "potioneffect",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "radiation"
     },
