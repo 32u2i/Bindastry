@@ -1,10 +1,8 @@
 package net.mcreator.bindastry.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.bindastry.init.BindastryModMobEffects;
+import javax.annotation.Nullable;
 
 public class UraniumKoghdaPriedmietVInvientarieProcedure {
 	public static void execute(Entity entity) {

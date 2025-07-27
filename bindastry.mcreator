@@ -81,6 +81,14 @@
       }
     },
     {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
+    },
+    {
       "name": "UraniumKoghdaPriedmietVInvientarie",
       "type": "procedure",
       "sortid": 8,
@@ -97,12 +105,28 @@
       }
     },
     {
-      "name": "Uranium",
+      "name": "LaserFocus",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_focus"
+    },
+    {
+      "name": "IronPlate",
       "type": "item",
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uranium"
+      "registry_name": "iron_plate"
+    },
+    {
+      "name": "UraniumBattery",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_battery"
     }
   ],
   "variable_elements": [],
@@ -110,11 +134,14 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.uranium_battery": "Uranium Battery",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.uranium": "Uranium",
+      "item.bindastry.laser_focus": "Laser Focus",
       "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.blackmicrocircuits": "chip",
-      "effect.bindastry.radiation": "radiation"
+      "item.bindastry.iron_plate": "Iron Plate",
+      "effect.bindastry.radiation": "potion of radiation"
     }
   },
   "foldersRoot": {

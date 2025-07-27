@@ -1,8 +1,11 @@
 {
   "itemGroup.tabbindustry": "Bindustry",
+  "item.bindastry.uranium_battery": "Uranium Battery",
   "item.bindastry.dirtbeer": "Mud beer ",
   "item.bindastry.uranium": "Uranium",
+  "item.bindastry.laser_focus": "Laser Focus",
   "item.bindastry.iron_hammer": "Iron Hammer",
   "item.bindastry.blackmicrocircuits": "chip",
-  "effect.bindastry.radiation": "radiation"
+  "item.bindastry.iron_plate": "Iron Plate",
+  "effect.bindastry.radiation": "potion of radiation"
 }
