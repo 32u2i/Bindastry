@@ -15,15 +15,20 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_hammer"
+    },
+    {
+      "name": "Blackmicrocircuits",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackmicrocircuits"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabbindustry": "Bindustry",
-      "item.bindastry.iron_hammer": "Iron Hammer"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

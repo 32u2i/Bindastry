@@ -1,25 +1,10 @@
 
 package net.mcreator.bindastry.item;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.bindastry.init.BindastryModTabs;
-
-import java.util.List;
-
-import com.google.common.collect.Multimap;
-import com.google.common.collect.ImmutableMultimap;
 
 public class IronHammerItem extends Item {
+
 	public IronHammerItem() {
 		super(new Item.Properties().tab(BindastryModTabs.TAB_BINDUSTRY).durability(150));
 	}
@@ -57,6 +42,7 @@ public class IronHammerItem extends Item {
 					new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
+
 		return super.getDefaultAttributeModifiers(equipmentSlot);
 	}
 
@@ -79,4 +65,5 @@ public class IronHammerItem extends Item {
 	public boolean isRepairable(ItemStack itemstack) {
 		return false;
 	}
+
 }
