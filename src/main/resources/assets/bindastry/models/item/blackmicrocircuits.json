@@ -2,6 +2,6 @@
   "parent": "bindastry:custom/black_microshem",
   "textures": {
     "5": "bindastry:blocks/texturepay",
-    "particle": "bindastry:items/blackmicrocircuits"
+    "particle": "bindastry:items/chip"
   }
 }

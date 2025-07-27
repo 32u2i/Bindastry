@@ -2,13 +2,13 @@
   "_fv": 33,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "chip",
-    "customModelName": "black_microshem:default",
-    "name": "chip",
+    "renderType": 0,
+    "texture": "uranium",
+    "customModelName": "Normal",
+    "name": "Uranium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Bindustry"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
