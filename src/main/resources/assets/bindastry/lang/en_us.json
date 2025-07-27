@@ -1,6 +1,8 @@
 {
   "itemGroup.tabbindustry": "Bindustry",
   "item.bindastry.dirtbeer": "Mud beer ",
+  "item.bindastry.uranium": "Uranium",
   "item.bindastry.iron_hammer": "Iron Hammer",
-  "item.bindastry.blackmicrocircuits": "chip"
+  "item.bindastry.blackmicrocircuits": "chip",
+  "effect.bindastry.radiation": "potion of radiation"
 }

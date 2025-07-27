@@ -1,8 +1,7 @@
 package net.mcreator.bindastry.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageSource;
 
 public class RadiationKazhdyiTikVoVriemiaEffiektaProcedure {
 	public static void execute(Entity entity) {

@@ -90,6 +90,14 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium"
     }
   ],
   "variable_elements": [],
@@ -98,8 +106,10 @@
     "en_us": {
       "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.dirtbeer": "Mud beer ",
+      "item.bindastry.uranium": "Uranium",
       "item.bindastry.iron_hammer": "Iron Hammer",
-      "item.bindastry.blackmicrocircuits": "chip"
+      "item.bindastry.blackmicrocircuits": "chip",
+      "effect.bindastry.radiation": "potion of radiation"
     }
   },
   "foldersRoot": {

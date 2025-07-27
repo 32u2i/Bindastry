@@ -1,8 +1,6 @@
 package net.mcreator.bindastry.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.mcreator.bindastry.BindastryMod;
 
 public class RadiationKoghdaEffiektZakanchivaietsiaProcedure {
 	public static void execute() {

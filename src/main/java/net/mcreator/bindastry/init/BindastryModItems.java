@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.IronHammerItem;
 import net.mcreator.bindastry.item.DirtbeerItem;
 import net.mcreator.bindastry.item.BlackmicrocircuitsItem;
@@ -20,4 +21,5 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> IRON_HAMMER = REGISTRY.register("iron_hammer", () -> new IronHammerItem());
 	public static final RegistryObject<Item> BLACKMICROCIRCUITS = REGISTRY.register("blackmicrocircuits", () -> new BlackmicrocircuitsItem());
 	public static final RegistryObject<Item> DIRTBEER = REGISTRY.register("dirtbeer", () -> new DirtbeerItem());
+	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 }

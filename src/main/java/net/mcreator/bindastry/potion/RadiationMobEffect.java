@@ -1,8 +1,15 @@
 
 package net.mcreator.bindastry.potion;
 
-public class RadiationMobEffect extends MobEffect {
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.bindastry.procedures.RadiationKoghdaEffiektZakanchivaietsiaProcedure;
+import net.mcreator.bindastry.procedures.RadiationKazhdyiTikVoVriemiaEffiektaProcedure;
+
+public class RadiationMobEffect extends MobEffect {
 	public RadiationMobEffect() {
 		super(MobEffectCategory.HARMFUL, -4194360);
 	}
@@ -29,5 +36,4 @@ public class RadiationMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
-
 }
