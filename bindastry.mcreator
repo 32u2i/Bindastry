@@ -81,23 +81,28 @@
       }
     },
     {
-      "name": "RadiationKoghdaEffiektZakanchivaietsia",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "radiation_koghda_effiekt_zakanchivaietsia",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "Uranium",
       "type": "item",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium"
+    },
+    {
+      "name": "UraniumKoghdaPriedmietVInvientarie",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_koghda_priedmiet_v_invientarie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
       "name": "LaserFocus",
