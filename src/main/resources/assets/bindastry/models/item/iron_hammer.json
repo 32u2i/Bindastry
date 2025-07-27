@@ -1,7 +1,6 @@
 {
   "parent": "bindastry:custom/ironhammer",
   "textures": {
-    "1": "bindastry:blocks/",
     "particle": "bindastry:items/ironhammah"
   }
 }
