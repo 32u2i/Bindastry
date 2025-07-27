@@ -1,0 +1,7 @@
+{
+  "parent": "bindastry:custom/dirtypivo",
+  "textures": {
+    "3": "bindastry:blocks/texture9",
+    "particle": "bindastry:items/dirt_pivo"
+  }
+}

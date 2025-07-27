@@ -21,7 +21,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class IronHammerItem extends Item {
 	public IronHammerItem() {
-		super(new Item.Properties().tab(BindastryModTabs.TAB_BINDUSTRY).durability(150));
+		super(new Item.Properties().tab(BindastryModTabs.TAB_DELETED_MOD_ELEMENT).durability(150));
 	}
 
 	@Override

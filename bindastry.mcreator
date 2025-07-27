@@ -23,6 +23,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blackmicrocircuits"
+    },
+    {
+      "name": "Dirtbeer",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtbeer"
+    },
+    {
+      "name": "Dirtbeercraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtbeercraft"
     }
   ],
   "variable_elements": [],
