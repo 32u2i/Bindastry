@@ -1,0 +1,8 @@
+{
+  "parent": "bindastry:custom/brievno",
+  "textures": {
+    "all": "bindastry:blocks/55",
+    "particle": "bindastry:blocks/55",
+    "2": "bindastry:blocks/55"
+  }
+}

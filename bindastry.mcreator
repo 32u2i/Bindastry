@@ -207,15 +207,23 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "photolithograph"
+    },
+    {
+      "name": "Decorativelog",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorativelog"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabbindustry": "Bindustry",
-      "item.bindastry.uranium_battery": "Uranium Battery",
       "item.bindastry.semiconductor_converter": "Semiconductor Converter",
+      "item.bindastry.uranium_battery": "Uranium Battery",
+      "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",
@@ -223,6 +231,7 @@
       "item.bindastry.blackmicrocircuits": "chip",
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",
+      "block.bindastry.decorativelog": "Decorativelog",
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.lead": "Lead",
       "item.bindastry.laser_cutter": "Laser Cutter",
