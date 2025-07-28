@@ -3,6 +3,7 @@
   "item.bindastry.uranium_battery": "Uranium Battery",
   "itemGroup.tabbindustry": "Bindustry",
   "subtitles.paradise": "",
+  "block.bindastry.stormclouds": "Storm clouds",
   "item.bindastry.dirtbeer": "Mud beer ",
   "item.bindastry.lead_plate": "Lead Plate",
   "item.bindastry.laser_focus": "Laser Focus",
@@ -11,10 +12,14 @@
   "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
   "effect.bindastry.radiation": "radiation",
   "block.bindastry.decorativelog": "Decorativelog",
+  "block.bindastry.stormore": "Storm ore",
+  "block.bindastry.cloud": "Cloud",
+  "item.bindastry.stormsplinter": "Storm splinter",
   "item.bindastry.uranium": "Uranium",
   "item.bindastry.lead": "Lead",
   "item.bindastry.laser_cutter": "Laser Cutter",
   "item.bindastry.iron_hammer": "Iron Hammer",
   "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
-  "item.bindastry.iron_plate": "Iron Plate"
+  "item.bindastry.iron_plate": "Iron Plate",
+  "biome.bindastry.paradise": "Paradise"
 }
