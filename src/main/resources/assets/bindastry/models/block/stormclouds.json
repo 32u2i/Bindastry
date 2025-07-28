@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bindastry:blocks/stormclouds",
+    "up": "bindastry:blocks/stormclouds",
+    "north": "bindastry:blocks/stormclouds",
+    "east": "bindastry:blocks/stormclouds",
+    "south": "bindastry:blocks/stormclouds",
+    "west": "bindastry:blocks/stormclouds",
+    "particle": "bindastry:blocks/stormclouds"
+  }
+}

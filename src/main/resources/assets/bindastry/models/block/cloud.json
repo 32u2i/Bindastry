@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bindastry:blocks/cloud",
+    "particle": "bindastry:blocks/cloud"
+  }
+}

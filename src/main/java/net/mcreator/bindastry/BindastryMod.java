@@ -29,7 +29,9 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.bindastry.init.BindastryModTabs;
 import net.mcreator.bindastry.init.BindastryModMobEffects;
 import net.mcreator.bindastry.init.BindastryModItems;
+import net.mcreator.bindastry.init.BindastryModFeatures;
 import net.mcreator.bindastry.init.BindastryModBlocks;
+import net.mcreator.bindastry.init.BindastryModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +52,11 @@ public class BindastryMod {
 		BindastryModBlocks.REGISTRY.register(bus);
 		BindastryModItems.REGISTRY.register(bus);
 
+		BindastryModFeatures.REGISTRY.register(bus);
+
 		BindastryModMobEffects.REGISTRY.register(bus);
+
+		BindastryModBiomes.REGISTRY.register(bus);
 
 	}
 
