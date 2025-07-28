@@ -24,6 +24,7 @@ import net.mcreator.bindastry.item.LeadItem;
 import net.mcreator.bindastry.item.LaserFocusItem;
 import net.mcreator.bindastry.item.LaserCutterItem;
 import net.mcreator.bindastry.item.IronPlateItem;
+import net.mcreator.bindastry.item.IronHammerItem;
 import net.mcreator.bindastry.item.DirtbeerItem;
 import net.mcreator.bindastry.item.BlackmicrocircuitsItem;
 import net.mcreator.bindastry.BindastryMod;

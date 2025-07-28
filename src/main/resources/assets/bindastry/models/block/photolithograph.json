@@ -1,12 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "bindastry:custom/photolithograph",
   "textures": {
-    "down": "bindastry:blocks/gf",
-    "up": "bindastry:blocks/gf",
-    "north": "bindastry:blocks/gf",
-    "east": "bindastry:blocks/gf",
-    "south": "bindastry:blocks/gf",
-    "west": "bindastry:blocks/gf",
-    "particle": "bindastry:blocks/gf"
+    "all": "bindastry:blocks/gf",
+    "particle": "bindastry:blocks/gf",
+    "16": "bindastry:blocks/gf"
   }
 }

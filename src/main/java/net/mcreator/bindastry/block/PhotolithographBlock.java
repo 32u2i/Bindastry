@@ -1,11 +1,6 @@
 
 package net.mcreator.bindastry.block;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -22,10 +17,6 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-
-import net.mcreator.bindastry.init.BindastryModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -34,8 +25,7 @@ public class PhotolithographBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public PhotolithographBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -47,17 +37,6 @@ public class PhotolithographBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
-	}
-
-	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
-		return switch (state.getValue(FACING)) {
-			default -> box(-16, 0, -16, 16, 32, 16);
-			case NORTH -> box(0, 0, 0, 32, 32, 32);
-			case EAST -> box(-16, 0, 0, 16, 32, 32);
-			case WEST -> box(0, 0, -16, 32, 32, 16);
-		};
 	}
 
 	@Override
@@ -84,10 +63,5 @@ public class PhotolithographBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(BindastryModBlocks.PHOTOLITHOGRAPH.get(), renderType -> renderType == RenderType.cutout());
 	}
 }
