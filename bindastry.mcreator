@@ -217,30 +217,6 @@
       "registry_name": "decorativelog"
     },
     {
-      "name": "Cloud",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cloud"
-    },
-    {
-      "name": "Stormclouds",
-      "type": "block",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stormclouds"
-    },
-    {
-      "name": "Paradise",
-      "type": "biome",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "paradise"
-    },
-    {
       "name": "Stormore",
       "type": "block",
       "sortid": 25,
@@ -283,6 +259,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stormsplinter"
+    },
+    {
+      "name": "Cloud",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud"
+    },
+    {
+      "name": "Stormclouds",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormclouds"
+    },
+    {
+      "name": "Paradise",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paradise"
     }
   ],
   "variable_elements": [],
@@ -298,10 +298,9 @@
   ],
   "language_map": {
     "en_us": {
-      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
-      "item.bindastry.uranium_battery": "Uranium Battery",
       "itemGroup.tabbindustry": "Bindustry",
-      "block.bindastry.stormclouds": "Storm clouds",
+      "item.bindastry.uranium_battery": "Uranium Battery",
+      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
       "subtitles.paradise": "",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.lead_plate": "Lead Plate",
@@ -311,16 +310,12 @@
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",
       "block.bindastry.decorativelog": "Decorativelog",
-      "block.bindastry.stormore": "Storm ore",
-      "block.bindastry.cloud": "Cloud",
-      "item.bindastry.stormsplinter": "Storm splinter",
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.lead": "Lead",
       "item.bindastry.laser_cutter": "Laser Cutter",
       "item.bindastry.iron_hammer": "Iron Hammer",
       "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
-      "item.bindastry.iron_plate": "Iron Plate",
-      "biome.bindastry.paradise": "Paradise"
+      "item.bindastry.iron_plate": "Iron Plate"
     }
   },
   "foldersRoot": {

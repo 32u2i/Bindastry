@@ -1,10 +1,7 @@
 {
-  "forge_marker": 1,
-  "parent": "forge:item/default",
-  "loader": "forge:obj",
-  "model": "bindastry:models/item/ironhammer.obj",
+  "parent": "bindastry:custom/ironhammer",
   "textures": {
-    "m_8ef05ed1-1531-03d6-761c-911e4b2d975e": "bindastry:blocks/",
-    "particle": "bindastry:items/ironhammah"
+    "1": "bindastry:blocks/ironhammer",
+    "particle": "bindastry:items/lasercutter"
   }
 }
