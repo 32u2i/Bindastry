@@ -215,15 +215,93 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_hammer"
+    },
+    {
+      "name": "Stormore",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormore"
+    },
+    {
+      "name": "StormsplinterIghrokZakanchivaietIspolzovaniiePriedmieta",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormsplinter_ighrok_zakanchivaiet_ispolzovaniie_priedmieta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormsplinter",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormsplinter"
+    },
+    {
+      "name": "Cloud",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud"
+    },
+    {
+      "name": "Stormclouds",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormclouds"
+    },
+    {
+      "name": "Paradise",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paradise"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "paradise",
+      "files": [
+        "apronus1753680592084412"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.bindastry.semiconductor_converter": "Semiconductor Converter",
       "item.bindastry.uranium_battery": "Uranium Battery",
       "itemGroup.tabbindustry": "Bindustry",
+      "subtitles.paradise": "",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",

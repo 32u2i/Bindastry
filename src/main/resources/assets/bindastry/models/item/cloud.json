@@ -1,5 +1,5 @@
 {
-  "parent": "bindastry:block/photolithograph",
+  "parent": "bindastry:block/cloud",
   "display": {
     "thirdperson": {
       "rotation": [

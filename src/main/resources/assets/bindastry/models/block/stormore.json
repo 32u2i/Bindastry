@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bindastry:blocks/shtorm_ore",
+    "particle": "bindastry:blocks/shtorm_ore"
+  }
+}

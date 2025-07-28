@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "bindastry:block/photolithograph"
+    },
+    "facing=east": {
+      "model": "bindastry:block/photolithograph",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bindastry:block/photolithograph",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bindastry:block/photolithograph",
+      "y": 270
     }
   }
 }

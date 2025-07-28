@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.UraniumBatteryItem;
+import net.mcreator.bindastry.item.StormsplinterItem;
 import net.mcreator.bindastry.item.SemiconductorPTypeItem;
 import net.mcreator.bindastry.item.SemiconductorNTypeItem;
 import net.mcreator.bindastry.item.SemiconductorConverterItem;
@@ -23,7 +24,6 @@ import net.mcreator.bindastry.item.LeadItem;
 import net.mcreator.bindastry.item.LaserFocusItem;
 import net.mcreator.bindastry.item.LaserCutterItem;
 import net.mcreator.bindastry.item.IronPlateItem;
-import net.mcreator.bindastry.item.IronHammerItem;
 import net.mcreator.bindastry.item.DirtbeerItem;
 import net.mcreator.bindastry.item.BlackmicrocircuitsItem;
 import net.mcreator.bindastry.BindastryMod;
@@ -46,6 +46,10 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> PHOTOLITHOGRAPH = block(BindastryModBlocks.PHOTOLITHOGRAPH, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> DECORATIVELOG = block(BindastryModBlocks.DECORATIVELOG, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> IRON_HAMMER = REGISTRY.register("iron_hammer", () -> new IronHammerItem());
+	public static final RegistryObject<Item> CLOUD = block(BindastryModBlocks.CLOUD, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> STORMCLOUDS = block(BindastryModBlocks.STORMCLOUDS, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> STORMORE = block(BindastryModBlocks.STORMORE, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> STORMSPLINTER = REGISTRY.register("stormsplinter", () -> new StormsplinterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

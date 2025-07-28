@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "bindastry:block/decorativelog"
+    },
+    "facing=east": {
+      "model": "bindastry:block/decorativelog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bindastry:block/decorativelog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bindastry:block/decorativelog",
+      "y": 270
     }
   }
 }
