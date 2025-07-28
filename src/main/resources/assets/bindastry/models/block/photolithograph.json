@@ -1,7 +1,12 @@
 {
-  "parent": "bindastry:custom/fotototo,_chioto",
+  "parent": "block/cube",
   "textures": {
-    "all": "bindastry:blocks/gf",
+    "down": "bindastry:blocks/gf",
+    "up": "bindastry:blocks/gf",
+    "north": "bindastry:blocks/gf",
+    "east": "bindastry:blocks/gf",
+    "south": "bindastry:blocks/gf",
+    "west": "bindastry:blocks/gf",
     "particle": "bindastry:blocks/gf"
   }
 }

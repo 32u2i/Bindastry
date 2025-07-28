@@ -280,7 +280,7 @@
       "name": "Paradise",
       "type": "biome",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paradise"
     }
@@ -298,9 +298,9 @@
   ],
   "language_map": {
     "en_us": {
-      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
-      "item.bindastry.uranium_battery": "Uranium Battery",
       "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.uranium_battery": "Uranium Battery",
+      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
       "subtitles.paradise": "",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.lead_plate": "Lead Plate",
