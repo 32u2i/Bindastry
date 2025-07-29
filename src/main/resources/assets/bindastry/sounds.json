@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "voidmusic": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "bindastry:warm-_1_",
+        "stream": false
+      }
+    ]
   }
 }

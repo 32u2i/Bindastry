@@ -19,6 +19,7 @@ public class BindastryModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("bindastry", "paradise"), new SoundEvent(new ResourceLocation("bindastry", "paradise")));
+		REGISTRY.put(new ResourceLocation("bindastry", "voidmusic"), new SoundEvent(new ResourceLocation("bindastry", "voidmusic")));
 	}
 
 	@SubscribeEvent

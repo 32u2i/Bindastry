@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bindastry.block.VoidStoneBlock;
 import net.mcreator.bindastry.block.StormoreBlock;
 import net.mcreator.bindastry.block.StormcloudsBlock;
 import net.mcreator.bindastry.block.PhotolithographBlock;
@@ -28,11 +29,13 @@ public class BindastryModBlocks {
 	public static final RegistryObject<Block> CLOUD = REGISTRY.register("cloud", () -> new CloudBlock());
 	public static final RegistryObject<Block> STORMCLOUDS = REGISTRY.register("stormclouds", () -> new StormcloudsBlock());
 	public static final RegistryObject<Block> STORMORE = REGISTRY.register("stormore", () -> new StormoreBlock());
+	public static final RegistryObject<Block> VOID_STONE = REGISTRY.register("void_stone", () -> new VoidStoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
+			PhotolithographBlock.registerRenderLayer();
 			DecorativelogBlock.registerRenderLayer();
 		}
 	}

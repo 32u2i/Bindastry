@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.UraniumBatteryItem;
 import net.mcreator.bindastry.item.StormsplinterItem;
+import net.mcreator.bindastry.item.SingularityItem;
 import net.mcreator.bindastry.item.SemiconductorPTypeItem;
 import net.mcreator.bindastry.item.SemiconductorNTypeItem;
 import net.mcreator.bindastry.item.SemiconductorConverterItem;
@@ -51,6 +52,8 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> STORMCLOUDS = block(BindastryModBlocks.STORMCLOUDS, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> STORMORE = block(BindastryModBlocks.STORMORE, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> STORMSPLINTER = REGISTRY.register("stormsplinter", () -> new StormsplinterItem());
+	public static final RegistryObject<Item> SINGULARITY = REGISTRY.register("singularity", () -> new SingularityItem());
+	public static final RegistryObject<Item> VOID_STONE = block(BindastryModBlocks.VOID_STONE, BindastryModTabs.TAB_BINDUSTRY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

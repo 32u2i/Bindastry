@@ -29,6 +29,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.bindastry.world.biome.VoidPlainsBiome;
 import net.mcreator.bindastry.world.biome.ParadiseBiome;
 import net.mcreator.bindastry.BindastryMod;
 
@@ -42,11 +43,13 @@ import com.mojang.datafixers.util.Pair;
 public class BindastryModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, BindastryMod.MODID);
 	public static final RegistryObject<Biome> PARADISE = REGISTRY.register("paradise", () -> ParadiseBiome.createBiome());
+	public static final RegistryObject<Biome> VOID_PLAINS = REGISTRY.register("void_plains", () -> VoidPlainsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ParadiseBiome.init();
+			VoidPlainsBiome.init();
 		});
 	}
 

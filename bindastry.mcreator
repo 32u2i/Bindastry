@@ -283,6 +283,145 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "paradise"
+    },
+    {
+      "name": "PhotolithographGUI",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "photolithograph_gui"
+    },
+    {
+      "name": "PType",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_type",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Singularity",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularity"
+    },
+    {
+      "name": "VoidStone",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone"
+    },
+    {
+      "name": "VoidPlains",
+      "type": "biome",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_plains"
+    },
+    {
+      "name": "VoidDim",
+      "type": "dimension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dim",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "SingularityRightclicked",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularity_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DecayEffectExpires",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Decay",
+      "type": "potioneffect",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay"
+    },
+    {
+      "name": "VoidDimPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dim_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidDimPlayerLeavesDimension",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dim_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -294,20 +433,35 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "voidmusic",
+      "files": [
+        "warm-_1_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.uranium_battery": "Uranium Battery",
-      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
-      "subtitles.paradise": "",
+      "itemGroup.tabbindustry": "Bindustry",
+      "biome.bindastry.void_plains": "Void Plains",
+      "effect.bindastry.decay": "Decay",
       "block.bindastry.stormclouds": "Storm clouds",
       "item.bindastry.dirtbeer": "Mud beer ",
+      "item.bindastry.blackmicrocircuits": "chip",
+      "item.bindastry.laser_cutter": "Laser Cutter",
+      "block.bindastry.void_stone": "Void Stone",
+      "item.bindastry.iron_plate": "Iron Plate",
+      "item.bindastry.singularity": "Singularity",
+      "item.bindastry.semiconductor_converter": "Semiconductor Converter",
+      "subtitles.paradise": "",
       "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",
       "block.bindastry.photolithograph": "Photolithograph",
-      "item.bindastry.blackmicrocircuits": "chip",
+      "subtitles.voidmusic": "",
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",
       "block.bindastry.decorativelog": "Decorativelog",
@@ -316,10 +470,9 @@
       "item.bindastry.stormsplinter": "Storm splinter",
       "item.bindastry.uranium": "Uranium",
       "item.bindastry.lead": "Lead",
-      "item.bindastry.laser_cutter": "Laser Cutter",
+      "item.bindastry.void_dim": "Void Dim Portal Igniter",
       "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
       "item.bindastry.iron_hammer": "Iron Hammer",
-      "item.bindastry.iron_plate": "Iron Plate",
       "biome.bindastry.paradise": "Paradise"
     }
   },
