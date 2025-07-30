@@ -19,6 +19,7 @@ import net.mcreator.bindastry.block.StormoreBlock;
 import net.mcreator.bindastry.block.StormcloudsBlock;
 import net.mcreator.bindastry.block.PhotolithographBlock;
 import net.mcreator.bindastry.block.DecorativelogBlock;
+import net.mcreator.bindastry.block.CorruptionBlock;
 import net.mcreator.bindastry.block.CloudBlock;
 import net.mcreator.bindastry.BindastryMod;
 
@@ -30,6 +31,7 @@ public class BindastryModBlocks {
 	public static final RegistryObject<Block> STORMCLOUDS = REGISTRY.register("stormclouds", () -> new StormcloudsBlock());
 	public static final RegistryObject<Block> STORMORE = REGISTRY.register("stormore", () -> new StormoreBlock());
 	public static final RegistryObject<Block> VOID_STONE = REGISTRY.register("void_stone", () -> new VoidStoneBlock());
+	public static final RegistryObject<Block> CORRUPTION = REGISTRY.register("corruption", () -> new CorruptionBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

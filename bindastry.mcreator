@@ -403,6 +403,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -421,6 +425,17 @@
             "type": "entity"
           }
         ]
+      }
+    },
+    {
+      "name": "Corruption",
+      "type": "fluid",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption",
+      "metadata": {
+        "gb": true
       }
     }
   ],
@@ -445,13 +460,16 @@
   ],
   "language_map": {
     "en_us": {
-      "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.uranium_battery": "Uranium Battery",
+      "itemGroup.tabbindustry": "Bindustry",
       "biome.bindastry.void_plains": "Void Plains",
-      "block.bindastry.stormclouds": "Storm clouds",
+      "fluid.bindastry.corruption": "Corruption",
       "effect.bindastry.decay": "Decay",
+      "block.bindastry.stormclouds": "Storm clouds",
       "item.bindastry.dirtbeer": "Mud beer ",
+      "item.bindastry.corruption_bucket": "Corruption Bucket",
       "item.bindastry.blackmicrocircuits": "chip",
+      "block.bindastry.corruption": "Corruption",
       "item.bindastry.laser_cutter": "Laser Cutter",
       "block.bindastry.void_stone": "Void Stone",
       "item.bindastry.iron_plate": "Iron Plate",

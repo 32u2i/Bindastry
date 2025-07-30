@@ -77,7 +77,7 @@ public class VoidDimDimension {
 		}
 		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bindastry:void_dim"))) {
 
-			VoidDimPlayerEntersDimensionProcedure.execute(entity);
+			VoidDimPlayerEntersDimensionProcedure.execute(world, entity);
 		}
 	}
 }

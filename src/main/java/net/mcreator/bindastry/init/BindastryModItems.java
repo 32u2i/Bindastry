@@ -27,6 +27,7 @@ import net.mcreator.bindastry.item.LaserCutterItem;
 import net.mcreator.bindastry.item.IronPlateItem;
 import net.mcreator.bindastry.item.IronHammerItem;
 import net.mcreator.bindastry.item.DirtbeerItem;
+import net.mcreator.bindastry.item.CorruptionItem;
 import net.mcreator.bindastry.item.BlackmicrocircuitsItem;
 import net.mcreator.bindastry.BindastryMod;
 
@@ -54,6 +55,7 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> STORMSPLINTER = REGISTRY.register("stormsplinter", () -> new StormsplinterItem());
 	public static final RegistryObject<Item> SINGULARITY = REGISTRY.register("singularity", () -> new SingularityItem());
 	public static final RegistryObject<Item> VOID_STONE = block(BindastryModBlocks.VOID_STONE, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> CORRUPTION_BUCKET = REGISTRY.register("corruption_bucket", () -> new CorruptionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

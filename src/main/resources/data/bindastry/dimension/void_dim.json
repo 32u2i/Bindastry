@@ -34,7 +34,10 @@
         "Name": "bindastry:void_stone"
       },
       "default_fluid": {
-        "Name": "minecraft:void_air"
+        "Name": "bindastry:corruption",
+        "Properties": {
+          "level": "0"
+        }
       },
       "noise": {
         "min_y": -64,
