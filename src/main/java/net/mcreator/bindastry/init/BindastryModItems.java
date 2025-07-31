@@ -34,6 +34,7 @@ import net.mcreator.bindastry.BindastryMod;
 public class BindastryModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BindastryMod.MODID);
 	public static final RegistryObject<Item> BLACKMICROCIRCUITS = REGISTRY.register("blackmicrocircuits", () -> new BlackmicrocircuitsItem());
+	public static final RegistryObject<Item> IRON_HAMMER = REGISTRY.register("iron_hammer", () -> new IronHammerItem());
 	public static final RegistryObject<Item> DIRTBEER = REGISTRY.register("dirtbeer", () -> new DirtbeerItem());
 	public static final RegistryObject<Item> URANIUM = REGISTRY.register("uranium", () -> new UraniumItem());
 	public static final RegistryObject<Item> LASER_FOCUS = REGISTRY.register("laser_focus", () -> new LaserFocusItem());
@@ -48,7 +49,6 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> LASER_CUTTER = REGISTRY.register("laser_cutter", () -> new LaserCutterItem());
 	public static final RegistryObject<Item> PHOTOLITHOGRAPH = block(BindastryModBlocks.PHOTOLITHOGRAPH, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> DECORATIVELOG = block(BindastryModBlocks.DECORATIVELOG, BindastryModTabs.TAB_BINDUSTRY);
-	public static final RegistryObject<Item> IRON_HAMMER = REGISTRY.register("iron_hammer", () -> new IronHammerItem());
 	public static final RegistryObject<Item> CLOUD = block(BindastryModBlocks.CLOUD, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> STORMCLOUDS = block(BindastryModBlocks.STORMCLOUDS, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> STORMORE = block(BindastryModBlocks.STORMORE, BindastryModTabs.TAB_BINDUSTRY);
