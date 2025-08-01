@@ -460,12 +460,12 @@
   ],
   "language_map": {
     "en_us": {
-      "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.uranium_battery": "Uranium Battery",
+      "itemGroup.tabbindustry": "Bindustry",
       "biome.bindastry.void_plains": "Void Plains",
       "fluid.bindastry.corruption": "Corruption",
-      "block.bindastry.stormclouds": "Storm clouds",
       "effect.bindastry.decay": "Decay",
+      "block.bindastry.stormclouds": "Storm clouds",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.corruption_bucket": "Corruption Bucket",
       "item.bindastry.blackmicrocircuits": "chip",
