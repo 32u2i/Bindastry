@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bindastry:blocks/voidstone",
-    "up": "bindastry:blocks/voidstone",
-    "north": "bindastry:blocks/voidstone",
-    "east": "bindastry:blocks/voidstone",
-    "south": "bindastry:blocks/voidstone",
-    "west": "bindastry:blocks/voidstone",
-    "particle": "bindastry:blocks/voidstone"
+    "down": "bindastry:blocks/voidstoneanim",
+    "up": "bindastry:blocks/voidstoneanim",
+    "north": "bindastry:blocks/voidstoneanim",
+    "east": "bindastry:blocks/voidstoneanim",
+    "south": "bindastry:blocks/voidstoneanim",
+    "west": "bindastry:blocks/voidstoneanim",
+    "particle": "bindastry:blocks/voidstoneanim"
   }
 }

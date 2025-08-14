@@ -14,7 +14,6 @@ import net.mcreator.bindastry.init.BindastryModFluids;
 public class CorruptionBlock extends LiquidBlock {
 	public CorruptionBlock() {
 		super(() -> (FlowingFluid) BindastryModFluids.CORRUPTION.get(), BlockBehaviour.Properties.of(Material.LAVA).strength(100f)
-				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 
 		);
 	}
