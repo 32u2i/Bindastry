@@ -496,7 +496,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "mana_and_bla_bla_bla",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bindastry",
