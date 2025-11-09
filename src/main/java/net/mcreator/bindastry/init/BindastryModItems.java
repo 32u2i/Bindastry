@@ -7,12 +7,14 @@ package net.mcreator.bindastry.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.bindastry.item.VoidshardItem;
 import net.mcreator.bindastry.item.UraniumItem;
 import net.mcreator.bindastry.item.UraniumBatteryItem;
 import net.mcreator.bindastry.item.StormsplinterItem;
@@ -56,6 +58,9 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> SINGULARITY = REGISTRY.register("singularity", () -> new SingularityItem());
 	public static final RegistryObject<Item> VOID_STONE = block(BindastryModBlocks.VOID_STONE, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> CORRUPTION_BUCKET = REGISTRY.register("corruption_bucket", () -> new CorruptionItem());
+	public static final RegistryObject<Item> BOID = REGISTRY.register("boid_spawn_egg",
+			() -> new ForgeSpawnEggItem(BindastryModEntities.BOID, -10092442, -16777216, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> VOIDSHARD = REGISTRY.register("voidshard", () -> new VoidshardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

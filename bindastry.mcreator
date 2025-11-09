@@ -437,6 +437,54 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "Boid",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boid"
+    },
+    {
+      "name": "Voidshard",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidshard"
+    },
+    {
+      "name": "AntiRadKoghdaEffiektNachatprimienien",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad_koghda_effiekt_nachatprimienien",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiRad",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad"
+    },
+    {
+      "name": "Singularitycraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularitycraft"
     }
   ],
   "variable_elements": [],
@@ -462,6 +510,7 @@
     "en_us": {
       "itemGroup.tabbindustry": "Bindustry",
       "item.bindastry.uranium_battery": "Uranium Battery",
+      "item.bindastry.voidshard": "Voidshard",
       "biome.bindastry.void_plains": "Void Plains",
       "fluid.bindastry.corruption": "Corruption",
       "block.bindastry.stormclouds": "Storm clouds",
@@ -476,13 +525,16 @@
       "item.bindastry.singularity": "Singularity",
       "item.bindastry.semiconductor_converter": "Semiconductor Converter",
       "subtitles.paradise": "",
+      "item.bindastry.boid_spawn_egg": "Boid Spawn Egg",
       "item.bindastry.lead_plate": "Lead Plate",
       "item.bindastry.laser_focus": "Laser Focus",
       "block.bindastry.photolithograph": "Photolithograph",
       "subtitles.voidmusic": "",
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",
+      "effect.bindastry.anti_rad": "AntiRad",
       "block.bindastry.decorativelog": "Decorativelog",
+      "entity.bindastry.boid": "Boid",
       "block.bindastry.stormore": "Storm ore",
       "block.bindastry.cloud": "Cloud",
       "item.bindastry.stormsplinter": "Storm splinter",

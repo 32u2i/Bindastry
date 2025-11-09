@@ -12,10 +12,12 @@ import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.bindastry.potion.RadiationMobEffect;
 import net.mcreator.bindastry.potion.DecayMobEffect;
+import net.mcreator.bindastry.potion.AntiRadMobEffect;
 import net.mcreator.bindastry.BindastryMod;
 
 public class BindastryModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, BindastryMod.MODID);
 	public static final RegistryObject<MobEffect> RADIATION = REGISTRY.register("radiation", () -> new RadiationMobEffect());
 	public static final RegistryObject<MobEffect> DECAY = REGISTRY.register("decay", () -> new DecayMobEffect());
+	public static final RegistryObject<MobEffect> ANTI_RAD = REGISTRY.register("anti_rad", () -> new AntiRadMobEffect());
 }
