@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Ore And Metal",
+    "icon": {
+      "value": "Blocks.STONE#1"
+    },
+    "showSearch": false
+  }
+}

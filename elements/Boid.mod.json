@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Boid",
     "mobLabel": "",
-    "mobModelName": "ModelCustomModel",
+    "mobModelName": "Modelboid",
     "mobModelTexture": "boid_texture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

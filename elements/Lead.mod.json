@@ -8,7 +8,7 @@
     "name": "Lead",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OreAndMetal"
     },
     "stackSize": 64,
     "enchantability": 0,

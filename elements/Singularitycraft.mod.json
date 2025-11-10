@@ -13,7 +13,7 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "CUSTOM:SemiconductorNType"
+        "value": "CUSTOM:SemiconductorConverter"
       },
       {
         "value": "Blocks.OBSIDIAN"
@@ -31,7 +31,7 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "CUSTOM:SemiconductorPType"
+        "value": "CUSTOM:SemiconductorConverter"
       },
       {
         "value": "Blocks.OBSIDIAN"

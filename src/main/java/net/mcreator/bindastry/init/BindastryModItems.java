@@ -53,7 +53,7 @@ public class BindastryModItems {
 	public static final RegistryObject<Item> IRON_HAMMER = REGISTRY.register("iron_hammer", () -> new IronHammerItem());
 	public static final RegistryObject<Item> CLOUD = block(BindastryModBlocks.CLOUD, BindastryModTabs.TAB_BINDUSTRY);
 	public static final RegistryObject<Item> STORMCLOUDS = block(BindastryModBlocks.STORMCLOUDS, BindastryModTabs.TAB_BINDUSTRY);
-	public static final RegistryObject<Item> STORMORE = block(BindastryModBlocks.STORMORE, BindastryModTabs.TAB_BINDUSTRY);
+	public static final RegistryObject<Item> STORMORE = block(BindastryModBlocks.STORMORE, BindastryModTabs.TAB_ORE_AND_METAL);
 	public static final RegistryObject<Item> STORMSPLINTER = REGISTRY.register("stormsplinter", () -> new StormsplinterItem());
 	public static final RegistryObject<Item> SINGULARITY = REGISTRY.register("singularity", () -> new SingularityItem());
 	public static final RegistryObject<Item> VOID_STONE = block(BindastryModBlocks.VOID_STONE, BindastryModTabs.TAB_BINDUSTRY);

@@ -40,11 +40,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Bindustry"
+      "value": "CUSTOM:OreAndMetal"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Stormsplinter"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

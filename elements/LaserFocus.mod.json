@@ -8,7 +8,7 @@
     "name": "Laser Focus",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Bindustry"
     },
     "stackSize": 64,
     "enchantability": 0,

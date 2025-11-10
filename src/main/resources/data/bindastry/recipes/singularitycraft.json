@@ -10,7 +10,7 @@
       "item": "minecraft:obsidian"
     },
     "1": {
-      "item": "bindastry:semiconductor_n_type"
+      "item": "bindastry:semiconductor_converter"
     },
     "2": {
       "item": "minecraft:obsidian"
@@ -28,7 +28,7 @@
       "item": "minecraft:obsidian"
     },
     "7": {
-      "item": "bindastry:semiconductor_p_type"
+      "item": "bindastry:semiconductor_converter"
     },
     "8": {
       "item": "minecraft:obsidian"

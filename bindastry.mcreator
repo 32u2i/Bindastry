@@ -485,6 +485,47 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "singularitycraft"
+    },
+    {
+      "name": "VoidDimPriObnovlieniiTaktovPortala",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dim_pri_obnovlienii_taktov_portala",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OreAndMetal",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_and_metal",
+      "path": "~/Ore"
+    },
+    {
+      "name": "NTYPE",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ntype",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -508,13 +549,14 @@
   ],
   "language_map": {
     "en_us": {
-      "item.bindastry.uranium_battery": "Uranium Battery",
       "itemGroup.tabbindustry": "Bindustry",
+      "item.bindastry.uranium_battery": "Uranium Battery",
       "item.bindastry.voidshard": "Voidshard",
       "biome.bindastry.void_plains": "Void Plains",
       "fluid.bindastry.corruption": "Corruption",
-      "effect.bindastry.decay": "Decay",
+      "itemGroup.tabore_and_metal": "Ore And Metal",
       "block.bindastry.stormclouds": "Storm clouds",
+      "effect.bindastry.decay": "Decay",
       "item.bindastry.dirtbeer": "Mud beer ",
       "item.bindastry.corruption_bucket": "Corruption Bucket",
       "item.bindastry.blackmicrocircuits": "chip",
@@ -543,7 +585,7 @@
       "item.bindastry.void_dim": "Void Dim Portal Igniter",
       "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
       "item.bindastry.iron_hammer": "Iron Hammer",
-      "biome.bindastry.paradise": "Paradise"
+      "biome.bindastry.paradise": "Fall paradise"
     }
   },
   "foldersRoot": {
@@ -551,6 +593,10 @@
     "children": [
       {
         "name": "mana_and_bla_bla_bla",
+        "children": []
+      },
+      {
+        "name": "Ore",
         "children": []
       }
     ]

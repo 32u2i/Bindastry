@@ -92,6 +92,10 @@ public class PhotolithographGUIScreen extends AbstractContainerScreen<Photolitho
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 67, this.topPos + 55, 51, 20, new TextComponent("N-Type"), e -> {
+			if (true) {
+				BindastryMod.PACKET_HANDLER.sendToServer(new PhotolithographGUIButtonMessage(1, x, y, z));
+				PhotolithographGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 	}
 }

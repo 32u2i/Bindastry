@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.bindastry.entity.BoidEntity;
-import net.mcreator.bindastry.client.model.ModelCustomModel;
+import net.mcreator.bindastry.client.model.Modelboid;
 
-public class BoidRenderer extends MobRenderer<BoidEntity, ModelCustomModel<BoidEntity>> {
+public class BoidRenderer extends MobRenderer<BoidEntity, Modelboid<BoidEntity>> {
 	public BoidRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelCustomModel(context.bakeLayer(ModelCustomModel.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelboid(context.bakeLayer(Modelboid.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

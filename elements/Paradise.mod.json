@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "biome",
   "definition": {
-    "name": "Paradise",
+    "name": "Fall paradise",
     "groundBlock": {
       "value": "CUSTOM:Cloud"
     },
@@ -57,22 +57,21 @@
     "heightVariation": 0.2,
     "spawnBiome": true,
     "spawnBiomeNether": false,
-    "spawnInCaves": false,
-    "biomeWeight": 5,
+    "spawnInCaves": true,
+    "biomeWeight": 9,
     "biomeDictionaryTypes": [
-      "MAGICAL",
-      "RARE"
+      "MAGICAL"
     ],
-    "grassPerChunk": 2,
+    "grassPerChunk": 0,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 1,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
@@ -92,7 +91,7 @@
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "plains",
+    "villageType": "desert",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,

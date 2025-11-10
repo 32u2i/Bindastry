@@ -8,7 +8,7 @@
     "name": "Semiconductor Converter",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Bindustry"
     },
     "stackSize": 64,
     "enchantability": 0,

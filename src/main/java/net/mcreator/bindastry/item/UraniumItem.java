@@ -15,7 +15,7 @@ import net.mcreator.bindastry.init.BindastryModTabs;
 
 public class UraniumItem extends Item {
 	public UraniumItem() {
-		super(new Item.Properties().tab(BindastryModTabs.TAB_BINDUSTRY).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(BindastryModTabs.TAB_ORE_AND_METAL).stacksTo(64).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(177).saturationMod(177f).alwaysEat()
 
 						.build()));

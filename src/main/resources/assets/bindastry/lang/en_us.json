@@ -1,11 +1,12 @@
 {
-  "item.bindastry.uranium_battery": "Uranium Battery",
   "itemGroup.tabbindustry": "Bindustry",
+  "item.bindastry.uranium_battery": "Uranium Battery",
   "item.bindastry.voidshard": "Voidshard",
   "biome.bindastry.void_plains": "Void Plains",
   "fluid.bindastry.corruption": "Corruption",
-  "effect.bindastry.decay": "Decay",
+  "itemGroup.tabore_and_metal": "Ore And Metal",
   "block.bindastry.stormclouds": "Storm clouds",
+  "effect.bindastry.decay": "Decay",
   "item.bindastry.dirtbeer": "Mud beer ",
   "item.bindastry.corruption_bucket": "Corruption Bucket",
   "item.bindastry.blackmicrocircuits": "chip",
@@ -34,5 +35,5 @@
   "item.bindastry.void_dim": "Void Dim Portal Igniter",
   "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
   "item.bindastry.iron_hammer": "Iron Hammer",
-  "biome.bindastry.paradise": "Paradise"
+  "biome.bindastry.paradise": "Fall paradise"
 }
