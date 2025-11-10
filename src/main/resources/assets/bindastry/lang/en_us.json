@@ -1,10 +1,12 @@
 {
-  "item.bindastry.uranium_battery": "Uranium Battery",
   "itemGroup.tabbindustry": "Bindustry",
+  "item.bindastry.uranium_battery": "Uranium Battery",
+  "item.bindastry.voidshard": "Voidshard",
   "biome.bindastry.void_plains": "Void Plains",
   "fluid.bindastry.corruption": "Corruption",
-  "effect.bindastry.decay": "Decay",
+  "itemGroup.tabore_and_metal": "Ore And Metal",
   "block.bindastry.stormclouds": "Storm clouds",
+  "effect.bindastry.decay": "Decay",
   "item.bindastry.dirtbeer": "Mud beer ",
   "item.bindastry.corruption_bucket": "Corruption Bucket",
   "item.bindastry.blackmicrocircuits": "chip",
@@ -15,6 +17,7 @@
   "item.bindastry.singularity": "Singularity",
   "item.bindastry.semiconductor_converter": "Semiconductor Converter",
   "subtitles.paradise": "",
+  "item.bindastry.boid_spawn_egg": "Boid Spawn Egg",
   "item.bindastry.lead_plate": "Lead Plate",
   "item.bindastry.laser_focus": "Laser Focus",
   "block.bindastry.photolithograph": "Photolithograph",
@@ -23,6 +26,7 @@
   "effect.bindastry.radiation": "radiation",
   "effect.bindastry.anti_rad": "AntiRad",
   "block.bindastry.decorativelog": "Decorativelog",
+  "entity.bindastry.boid": "Boid",
   "block.bindastry.stormore": "Storm ore",
   "block.bindastry.cloud": "Cloud",
   "item.bindastry.stormsplinter": "Storm splinter",
@@ -31,5 +35,5 @@
   "item.bindastry.void_dim": "Void Dim Portal Igniter",
   "item.bindastry.semiconductor_n_type": "Semiconductor N Type",
   "item.bindastry.iron_hammer": "Iron Hammer",
-  "biome.bindastry.paradise": "Paradise"
+  "biome.bindastry.paradise": "Fall paradise"
 }
