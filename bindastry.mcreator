@@ -459,7 +459,7 @@
       "name": "VoidDimPriObnovlieniiTaktovPortala",
       "type": "procedure",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "void_dim_pri_obnovlienii_taktov_portala",
       "metadata": {
@@ -475,7 +475,7 @@
       "name": "Boid",
       "type": "livingentity",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "boid"
     },
@@ -483,7 +483,7 @@
       "name": "NTYPE",
       "type": "procedure",
       "sortid": 43,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ntype",
       "metadata": {
@@ -499,7 +499,7 @@
       "name": "Voidshard",
       "type": "item",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "voidshard"
     },
@@ -515,7 +515,7 @@
       "name": "AntiRadKoghdaEffiektNachatprimienien",
       "type": "procedure",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "anti_rad_koghda_effiekt_nachatprimienien",
       "metadata": {
@@ -571,6 +571,7 @@
       "subtitles.voidmusic": "",
       "item.bindastry.semiconductor_p_type": "Semiconductor P Type",
       "effect.bindastry.radiation": "radiation",
+      "effect.bindastry.anti_rad": "AntiRad",
       "block.bindastry.decorativelog": "Decorativelog",
       "block.bindastry.stormore": "Storm ore",
       "block.bindastry.cloud": "Cloud",
