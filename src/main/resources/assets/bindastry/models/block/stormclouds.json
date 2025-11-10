@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bindastry:blocks/stormclouds",
-    "up": "bindastry:blocks/stormclouds",
-    "north": "bindastry:blocks/stormclouds",
-    "east": "bindastry:blocks/stormclouds",
-    "south": "bindastry:blocks/stormclouds",
-    "west": "bindastry:blocks/stormclouds",
-    "particle": "bindastry:blocks/stormclouds"
+    "down": "bindastry:blocks/clouda",
+    "up": "bindastry:blocks/clouda",
+    "north": "bindastry:blocks/clouda",
+    "east": "bindastry:blocks/clouda",
+    "south": "bindastry:blocks/clouda",
+    "west": "bindastry:blocks/clouda",
+    "particle": "bindastry:blocks/clouda"
   }
 }

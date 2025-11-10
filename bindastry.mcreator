@@ -437,6 +437,95 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "OreAndMetal",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_and_metal",
+      "path": "~/Ore"
+    },
+    {
+      "name": "Singularitycraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularitycraft"
+    },
+    {
+      "name": "VoidDimPriObnovlieniiTaktovPortala",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dim_pri_obnovlienii_taktov_portala",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boid",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boid"
+    },
+    {
+      "name": "NTYPE",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ntype",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidshard",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidshard"
+    },
+    {
+      "name": "AntiRad",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad"
+    },
+    {
+      "name": "AntiRadKoghdaEffiektNachatprimienien",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_rad_koghda_effiekt_nachatprimienien",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -499,6 +588,10 @@
     "children": [
       {
         "name": "mana_and_bla_bla_bla",
+        "children": []
+      },
+      {
+        "name": "Ore",
         "children": []
       }
     ]

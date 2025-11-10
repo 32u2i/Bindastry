@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.bindastry.world.inventory.PhotolithographGUIMenu;
 import net.mcreator.bindastry.procedures.PTypeProcedure;
+import net.mcreator.bindastry.procedures.NTYPEProcedure;
 import net.mcreator.bindastry.BindastryMod;
 
 import java.util.function.Supplier;
@@ -65,6 +66,10 @@ public class PhotolithographGUIButtonMessage {
 		if (buttonID == 0) {
 
 			PTypeProcedure.execute(entity);
+		}
+		if (buttonID == 1) {
+
+			NTYPEProcedure.execute(entity);
 		}
 	}
 

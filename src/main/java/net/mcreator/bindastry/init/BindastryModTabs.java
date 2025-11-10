@@ -13,12 +13,24 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class BindastryModTabs {
 	public static CreativeModeTab TAB_BINDUSTRY;
+	public static CreativeModeTab TAB_ORE_AND_METAL;
 
 	public static void load() {
 		TAB_BINDUSTRY = new CreativeModeTab("tabbindustry") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(Blocks.ANDESITE);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ORE_AND_METAL = new CreativeModeTab("tabore_and_metal") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(Blocks.GRANITE);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -4,11 +4,12 @@ package net.mcreator.bindastry.item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.bindastry.init.BindastryModTabs;
 
 public class LaserCutterItem extends Item {
 	public LaserCutterItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(200).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(BindastryModTabs.TAB_BINDUSTRY).durability(200).rarity(Rarity.COMMON));
 	}
 
 	@Override

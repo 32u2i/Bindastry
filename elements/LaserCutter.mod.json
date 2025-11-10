@@ -8,7 +8,7 @@
     "name": "Laser Cutter",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Bindustry"
     },
     "stackSize": 1,
     "enchantability": 0,

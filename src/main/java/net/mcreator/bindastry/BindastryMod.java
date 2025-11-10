@@ -31,6 +31,7 @@ import net.mcreator.bindastry.init.BindastryModMobEffects;
 import net.mcreator.bindastry.init.BindastryModItems;
 import net.mcreator.bindastry.init.BindastryModFluids;
 import net.mcreator.bindastry.init.BindastryModFeatures;
+import net.mcreator.bindastry.init.BindastryModEntities;
 import net.mcreator.bindastry.init.BindastryModBlocks;
 import net.mcreator.bindastry.init.BindastryModBiomes;
 
@@ -52,6 +53,7 @@ public class BindastryMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BindastryModBlocks.REGISTRY.register(bus);
 		BindastryModItems.REGISTRY.register(bus);
+		BindastryModEntities.REGISTRY.register(bus);
 
 		BindastryModFeatures.REGISTRY.register(bus);
 		BindastryModFluids.REGISTRY.register(bus);

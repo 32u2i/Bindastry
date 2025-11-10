@@ -41,6 +41,9 @@
         "type": "button",
         "data": {
           "text": "N-Type",
+          "onClick": {
+            "name": "NTYPE"
+          },
           "width": 51,
           "height": 20,
           "name": "N-Type",
